@@ -23,7 +23,8 @@ $shadow: 0 3px 20px rgba(0, 0, 0, 0.356);
 }
 
 body {
-  background: $black2;
+  // background: $black2;
+  background: #DCF2ED;
   color: $white;
 }
 
@@ -32,8 +33,10 @@ input[type="submit"] {
   background: none;
   border: none;
   cursor: pointer;
-  background: $color1;
+  //background: $color1;
+  background: #0072CE;
   transition: 0.2s;
+  color: $white;
 
   &:hover {
     filter: brightness(80%);

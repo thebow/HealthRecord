@@ -1,5 +1,6 @@
 .app-header {
-  background: $black1;
+  // background: $black1;
+  background: #FFFFFF;
   width: 60%;
   min-width: 300px;
   max-width: 650px;
@@ -8,8 +9,9 @@
   position: relative;
   padding: 20px 20px;
   border-radius: 0 20px 20px 20px;
-  min-height: 258px;
+  min-height: 400px;
   box-shadow: $shadow;
+  margin-top: 282px;
 
   .connect-modal {
     height: 100%;
@@ -33,11 +35,12 @@
     }
     .signup-container,
     .login-container {
-      min-height: 210px;
+      min-height: 400px;
       @include verticalCenter;
 
       h3 {
         margin-bottom: 8px;
+        color:#072125;
       }
 
       form {
